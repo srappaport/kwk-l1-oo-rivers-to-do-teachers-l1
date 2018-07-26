@@ -1,6 +1,6 @@
 # river.rb
 class River
-  attr_accessor :length
+  attr_accessor :length, :countries
   def initialize(name)
     @name=name
   end
